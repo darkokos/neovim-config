@@ -14,6 +14,6 @@ rtp:prepend(lazypath)
 require('lazy').setup({
 	spec = { { import = 'plugins' } },
 	ui = { border = 'rounded' },
-	install = { colorscheme = { 'habamax' } },
+	install = { colorscheme = { 'tokyonight-moon' } },
 	checker = { enabled = true },
 })
