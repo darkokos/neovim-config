@@ -13,7 +13,24 @@ rtp:prepend(lazypath)
 
 require('lazy').setup({
 	spec = { { import = 'plugins' } },
-	ui = { border = 'rounded' },
+	ui = {
+				border = 'rounded',
+				icons = vim.g.have_nerd_font and {} or {
+						cmd = '⌘',
+						config = '🛠',
+						event = '📅',
+						ft = '📂',
+						init = '⚙',
+						keys = '🗝',
+						plugin = '🔌',
+						runtime = '💻',
+						require = '🌙',
+						source = '📄',
+						start = '🚀',
+						task = '📌',
+						lazy = '💤 ',
+				},
+		},
 	install = { colorscheme = { 'tokyonight-moon' } },
 	checker = { enabled = true },
 })
