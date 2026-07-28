@@ -7,6 +7,7 @@ return {
 		spec = {
 			{ "<leader>s", group = "[S]earch" },
 			{ "<leader>m", group = "[M]ove" },
+			{ "gr", group = "LSP actions" },
 		},
 		icons = {
 			mappings = vim.g.have_nerd_font,

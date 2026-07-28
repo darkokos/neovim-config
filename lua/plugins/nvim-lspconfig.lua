@@ -19,6 +19,12 @@ return {
 				end
 
 				map("grn", vim.lsp.buf.rename, "[R]e[n]ame")
+				map("grD", vim.lsp.buf.declaration, "[G]oto [D]eclaration")
+				map("grd", vim.lsp.buf.definition, "[G]oto [D]efinition")
+				map("gri", vim.lsp.buf.implementation, "[G]oto [I]mplementation")
+				map("grt", vim.lsp.buf.type_definition, "[G]oto [T]ype Definition")
+				map("gra", vim.lsp.buf.code_action, "[G]oto Code [A]ction")
+				map("grr", vim.lsp.buf.references, "[G]oto [R]eferences")
 			end,
 		})
 
